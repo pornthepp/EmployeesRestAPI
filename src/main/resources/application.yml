@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: "oracle-api-v2"
+  datasource:
+    url: "jdbc:oracle:thin:@//localhost:1521/orclpdb"
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+server:
+  port: 8082
